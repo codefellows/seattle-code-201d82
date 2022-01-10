@@ -1,6 +1,15 @@
 # Basics of HTML, CSS & JS
 
-<!-- Description Here -->
+## Overview
+
+This class is focused on practice with JavaScript, an introduction to data types, conditionals, and arrays. We will also be learning about Git and Github at a much deeper level. Today's lab will require the creation of a new repo and using a very basic git workflow.
+
+## Class Outline
+
+- Code Review of previous class' lab assignment
+- Code Demo
+- Creating a GitHub repository(Repo) and git workflow (ACP)
+- Lab Preview and Prep
 
 ## Learning Objectives
 
@@ -20,10 +29,6 @@
 - Link external CSS and JavaScript files in the HTML5 head tag.
 - Work with an Add-Commit-Push workflow using git and GitHub.
 
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
 ## Notes
 
 - Quizzes:
@@ -39,9 +44,13 @@
 
 - There will be lots of detail work today on JS and CSS. We're going forward with the expectation that you will need minimal instruction on HTML except for concepts and overview of practices, and the specifics of how to interface with JS and CSS.
 
-- **Be sure to raise questions** about any topics that you'd like clarity about. If it is a topic that we will cover in the future, we'll let you know and maybe give a quick answer for now. On this day in particular, when we have so much to cover, it is important to avoid going down time-consuming rabbit-holes.
+- **Be sure to raise questions** about any topics that you'd like clarity about. If it is a topic that we will cover in the future, we'll let you know and maybe give a quick answer for now. In this class in particular, when we have so much to cover, it is important to avoid going down time-consuming rabbit-holes.
 
 ### Git command basics
+
+1. What is git?
+
+1. What is GitHub?
 
 - `git status`
   - Provides a detailed description of current state in working directory
