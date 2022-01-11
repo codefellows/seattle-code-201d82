@@ -4,7 +4,8 @@
 
 let user = prompt('Hi there, what is your name?');
 
-// Below is a template literal syntax. You're string is enclosed with the back-ticks, not quotes: `` (located by the 1 on your keyboard). Insert the variable in the ${} syntax.
+// Below is a template literal syntax. You're string is enclosed with the back-ticks, not quotes: `` (located by the 1 on your keyboard).
+// Insert the variable in the ${} syntax.
 alert(`Welcome ${user}! Let's play a guessing game so you can get to know me! Please answer yes or no.`);
 
 // concatenated version:
