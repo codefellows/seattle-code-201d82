@@ -13,6 +13,10 @@ alert(`Welcome ${user}! Let's play a guessing game so you can get to know me! Pl
 let answerOne = prompt('Do I have a daughter?').toLowerCase();
 
 // Using the .toLowerCase() without chaining as seen above.
+// .toLowerCase() will lower case everything in the string
+// .toUpperCase() will make every character capitalized!
+// if you use .toUpperCase, your conditional will check for YES/NO or Y/N
+// if you use .toLowerCase, your conditional will check for yes/no or y/n
 // let normalizedAnswerOne = answerOne.toLowerCase();
 
 // Validating user response:
