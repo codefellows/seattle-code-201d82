@@ -35,7 +35,7 @@ JavaScript **loosely typed** and **dynamic**
   - `'4'`
   - `'hello'`
 
-## Booleans
+### Booleans
 
 - Logical data type, can only be true or false. Use this a lot in validation. Denoted with no special notation.
   - `true`
