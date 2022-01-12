@@ -2,6 +2,7 @@
 
 ## In Class Notes/Takeaways!
 
+- [Lecture Notes - Arrays and Loops](lecture-notes.md)
 - [Array Replit](https://replit.com/@arpatterson31/201d82-class03-arrays#index.js)
 - [Loops Replit](https://replit.com/@arpatterson31/201d82-class03-for-while-loops#index.js)
 - [CSS Box Model CodePen](https://codepen.io/arpatterson31/pen/PoJxyKd)
