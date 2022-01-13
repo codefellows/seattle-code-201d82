@@ -1,6 +1,16 @@
-# HTML Links, JS Functions, and Intro to CSS Layout
+# JS Functions, Pair Programming, and Intro to CSS Layout
 
-<!-- Description Here -->
+## Overview
+
+In this class we will be learning about one of the fundamental building blocks in JavaScript: functions! We will also discuss and demonstrate pair programming, and CSS positioning.
+
+## Class Outline
+
+- Code review of previous day's lab assignment
+- Code Demo
+  - Functions
+  - CSS positioning
+- Lab preview and prep
 
 ## Learning Objectives
 
@@ -8,25 +18,29 @@
 
 #### Describe and Define
 
-- The role of both a driver and a navigator in a pair programming session
-- The use and purpose of functions with JavaScript
-- The importance of positioning within CSS
+- The use and purpose of functions with JavaScript.
+- The role of both a driver and a navigator in a pair programming session.
+- The importance of positioning within CSS.
 
 #### Execute
 
 - Demonstrate understanding of how functions work in JavaScript, as well as the component pieces including declarations, calls, parameters, arguments, and returns.
-- Demonstrate understanding of CSS layout principles including block, inline, normal, relative, absolute, float, and fixed positioning.
 - Successfully pair program with a fellow student and manage the collaborative and version control aspects of working with Git (from the command line) and GitHub (in the browser).
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
+- Demonstrate understanding of CSS layout principles including block, inline, normal, relative, absolute, float, and fixed positioning.
 
 ## Notes
 
+1. What is a function?
+
+1. A function definition may also be referred to as a function `__________` or a function `___________`.
+
+1. Function `__________` is used to execute the code within the function.
+
+1. What are some popular values for the position property?
+
 ### Helpful Resources
 
-1. [learnlayout.com](http://learnlayout.com) will be our practical entry point into layout
+1. [learnlayout.com](http://learnlayout.com) will be our practical entry point into layout.
 1. [CSS Zen Garden](http://www.csszengarden.com/) allows you to practice CSS styling and see how others have styled the same HTML code.
 1. [Centering in CSS](https://css-tricks.com/centering-css-complete-guide/) has some helpful tips for centering content horizontally and vertically.
 1. [Floats in CSS](https://medium.freecodecamp.org/css-floats-explained-by-riding-an-escalator-57fa55232333) as explained by riding an escalator.
