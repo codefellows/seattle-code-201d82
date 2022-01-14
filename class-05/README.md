@@ -3,8 +3,9 @@
 ## In Class Notes and Takeaways!
 
 - [Lecture Notes - CSS Units](lecture-notes.md)
-- [IMG DEMO with the right CSS😆😂](inclass-demo/)
+- [IMG DEMO with working CSS😆😂](inclass-demo/)
 - [Git Branching whiteboard](inclass-whiteboard/git-branching.png)
+- [Class 04 Review Replit](https://replit.com/@arpatterson31/201-class-04-review#index.js)
 
 ## Overview
 
