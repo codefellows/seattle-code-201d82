@@ -1,0 +1,41 @@
+* {
+  background-color: lightgrey;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align: center;
+}
+
+article {
+  width: 80%;
+  margin: auto;
+  background-color: lightpink;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+figure {
+  width: 50%;
+  background-color: lightblue;
+  padding: 25px;
+  margin-top: 50px;
+  display: inline-block
+}
+
+figcaption {
+  background-color: inherit;
+}
+
+img {
+  width: 100%;
+
+}
+
+p {
+  display: inline-block;
+  width: 40%;
+  background-color: inherit;
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif
+}
