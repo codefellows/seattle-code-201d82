@@ -1,11 +1,10 @@
 'use strict';
 
-// Jose is a volunteer for the kitten rescue... they need a way to get the profiles of kittens who will be up for adoption onto the page... new kittens come in and they need to be added. Jose knows a little bit of java script... he can make objects
+// Jose is a volunteer for the kitten rescue... they need a way to get the profiles of kittens who will be up for adoption onto the page... new kittens come in and they need to be added. Jose knows a little bit of java script... he can make objects!
 
 // what are we going to display?
 // Kittens
-// figure out what info about each kitten we need to show
-// age, picture, bio - interests, can be place with dogs? cats? kids? name
+// figure out what info about each kitten we need to show:
 // name
 // age with a function
 // interests []
@@ -59,19 +58,19 @@ let serena = {
   }
 };
 
+// helper functions - function used by another function to do something
+
 // function that gets a random age inclusive between 3 and 12 months
-// helper function - function used by another function to do something
-
-
 function randomAge(min, max){
   let number = Math.floor(Math.random() * (max - min + 1) + min);
   return number;
 }
 
+// adding all my kitten objects to an array for easy storage and use in helper functions
 const kittenCaboodle = [frankie, jumper, serena];
 
 function getAllKittenAges() {
-  // loop through the caboodle, and call getAge on all kittens
+  // loop through the kittenCaboodle array, and call getAge on kitten object
   for(let i = 0; i < kittenCaboodle.length; i++){
     let currentKitten = kittenCaboodle[i];
     currentKitten.getAge();
@@ -81,13 +80,13 @@ function getAllKittenAges() {
 getAllKittenAges();
 console.log(kittenCaboodle);
 
-// DOM Manipulation
+// ******* DOM Manipulation *****
 
-// 2nd Create the element
-// 3rd Give that element context
-// 4th append to the DOM (add it to the dom)
-
-// function to render kittens to the page
+// STEPS:
+// 1st step: Grab your window into the DOM, using the getElementById method. See line #19 in code
+// 2nd step: Create the element using the createElement method - takes in a string of the element type you want to create ('p') <- creates a p tag element
+// 3rd step: Give that element context (if you want or need to)
+// 4th step: append(add) to the DOM <-- parentElem.appendChild(childElem)
 
 // <!-- generate this from js: -->
 // <!-- <article>
@@ -99,26 +98,30 @@ console.log(kittenCaboodle);
 //        <img>
 //      </article> -->
 
+// function to render kittens to the DOM
 function renderKitten(kitten) {
 
+  //create an article element, it doesn't need context but append it to our DOM window, kittenSection <- see line 19 of code
   const articleElem = document.createElement('article');
   kittenSection.appendChild(articleElem);
 
-  // create h2
+  // create h2 element, give it context
+  // and append it to the article element
   const h2Elem = document.createElement('h2');
   h2Elem.textContent = kitten.name;
   articleElem.appendChild(h2Elem);
 
-  // create p
+  // create p element, give it context and
+  // append it to the article element
   const pElem = document.createElement('p');
   pElem.textContent = `${kitten.name} is adorable and is ${kitten.age} old`;
   articleElem.appendChild(pElem);
 
-  // create ul
+  // create ul and append it to the article element
   const ulElem = document.createElement('ul');
   articleElem.appendChild(ulElem);
 
-  // create the lis
+  // loop through the kitten interest array to create the lis
   for(let i = 0; i < kitten.interests.length; i++){
     let currentInterest = kitten.interests[i];
     const liElem = document.createElement('li');
@@ -135,10 +138,10 @@ function renderKitten(kitten) {
 }
 
 // function to render all the kitties
-
 function renderAllKittens(){
   for(let i = 0; i < kittenCaboodle.length; i++){
     let currentKitten = kittenCaboodle[i];
+    // calls the renderKitten function that does all the DOM manipulation passing in a kitten object
     renderKitten(currentKitten);
   }
 }
