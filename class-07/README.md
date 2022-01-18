@@ -5,6 +5,7 @@
 - [Constructor Replit](https://replit.com/@arpatterson31/201d82-class07-Constructors#index.js)
 - [In Class Demo with refactor and table!](inclass-demo)
 - [Lecture Notes](lecture-notes.md)
+- [Class 6 review Replit - Object Literals](https://replit.com/@arpatterson31/201-class-06-review-Object-Literals#index.js)
 
 ## Overview
 
