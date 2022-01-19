@@ -1,0 +1,53 @@
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+header img {
+  float: left;
+  margin-top: 15px;
+}
+
+header ul li {
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 35px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #777
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main ul li {
+  float: left;
+  margin: 30px 30px 30px 0px
+}
+
+main ul li:last-child {
+  margin-right: 0px
+}
+
+section div p {
+  width: 300px
+  height: 300px;
+  overflow: auto;
+}
