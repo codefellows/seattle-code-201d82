@@ -1,6 +1,24 @@
 # Object-Oriented Programming with Constructor Functions: HTML Tables
 
-<!-- Description Here -->
+## In Class notes and Takeaways!
+
+- [Constructor Replit](https://replit.com/@arpatterson31/201d82-class07-Constructors#index.js)
+- [In Class Demo with refactor and table!](inclass-demo)
+- [Lecture Notes](lecture-notes.md)
+- [Class 6 review Replit - Object Literals](https://replit.com/@arpatterson31/201-class-06-review-Object-Literals#index.js)
+
+## Overview
+
+This class will introduce inheritance with constructor functions, plus adding another dimension to dynamic DOM rendering by creating a table instead of lists from stored array data.
+
+## Class Outline
+
+- Code Review of previous lab assignment
+- Code Demo
+  - Constructor functions
+  - Prototype methods
+  - Dom Manipuation with HTML tables
+- Lab preview and prep
 
 ## Learning Objectives
 
@@ -18,8 +36,10 @@
 - Use the ‘prototype’ property to extend the inheritable properties and methods of a constructor function.
 - Dynamically build a semantic HTML table with with JavaScript and render it to the DOM.
 
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
 ## Notes
+
+1. What is a Constructor function?
+
+1. How does the term `this` differ when reference an object literal versus a Constructor function?
+
+1. What are some HTML elements that make up an HTML table?

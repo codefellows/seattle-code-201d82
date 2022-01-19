@@ -1,5 +1,12 @@
 # The DOM, Domain Modeling, and Introduction to Objects
 
+## In class notes and takeaways!
+
+- [Object Literals Replit](https://replit.com/@arpatterson31/201d82-class06-object-literals#index.js)
+- [Object Anatomy Whiteboard](inclass-whiteboards/object-anatomy.png)
+- [In Class Kitten DEMO](inclass-demo)
+- [Lecture Notes](lecture-notes.md)
+
 ## Class Outline
 
 - Code review of previous class lab assignment
