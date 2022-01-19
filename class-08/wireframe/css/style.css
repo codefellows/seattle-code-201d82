@@ -47,7 +47,6 @@ main ul li:last-child {
 }
 
 section div p {
-  width: 300px
   height: 300px;
   overflow: auto;
 }
