@@ -3,6 +3,8 @@
 ## Notes and Takeaways!
 
 - [Nested for loops and 2D Arrays REPLIT](https://replit.com/@arpatterson31/201d82-Nested-Loops-2D-Arrays#index.js)
+- [Flexbox Demo Code](flexbox-demo/)
+- [Wireframe](wireframe/)
 
 ## Overview
 
