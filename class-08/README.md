@@ -1,5 +1,9 @@
 # More Topics in CSS Layouts
 
+## Notes and Takeaways!
+
+- [Nested for loops and 2D Arrays REPLIT](https://replit.com/@arpatterson31/201d82-Nested-Loops-2D-Arrays#index.js)
+
 ## Overview
 
 In this class you will learn to layout a page using CSS and HTML with a given a wireframe. We will also be covering a more advanced CSS layout, Flexbox.
