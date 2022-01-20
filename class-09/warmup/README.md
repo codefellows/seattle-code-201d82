@@ -80,7 +80,7 @@ console.log(john.keyword);
 ```
 
 ```
-console.log(john[keyword]);  // john["last"] -> Cokos
+console.log(john[keyword]);  
 ```
 
 ```
@@ -89,7 +89,7 @@ const props = ['first', 'last', 'hairType', 'age'];
 
 ```
 for( let i = 0; i<props.length; i++) {
-  console.log( props[i],  john[props[i]]  ); // i=0 ... props[i]='john' ... john['first']
+  console.log( props[i],  john[props[i]]  ); 
 }
 ```
 
