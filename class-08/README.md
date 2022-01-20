@@ -1,5 +1,11 @@
 # More Topics in CSS Layouts
 
+## Notes and Takeaways!
+
+- [Nested for loops and 2D Arrays REPLIT](https://replit.com/@arpatterson31/201d82-Nested-Loops-2D-Arrays#index.js)
+- [Flexbox Demo Code](flexbox-demo/)
+- [Wireframe](wireframe/)
+
 ## Overview
 
 In this class you will learn to layout a page using CSS and HTML with a given a wireframe. We will also be covering a more advanced CSS layout, Flexbox.
@@ -8,7 +14,6 @@ In this class you will learn to layout a page using CSS and HTML with a given a 
 
 - Code Review of previous lab assignment
 - Code Demo
-  - Prototypal Inheritance
   - Wireframing
   - CSS Flexbox
 - Lab preview and prep
