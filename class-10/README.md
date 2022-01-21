@@ -1,5 +1,10 @@
 # JS Debugging and More CSS Layout
 
+## Notes and Takeaways!
+
+- [Array methods replit](https://replit.com/@arpatterson31/201d82-class-10-Array-Methods#index.js)
+- [JS Debugging Whiteboard](inclass-whiteboard/debugging.png)
+
 ## Overview
 
 Learning how to **debug** your code will help you to better identify the errors you see in your console, and how to fix them.
