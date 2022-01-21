@@ -1,5 +1,11 @@
 # HTML Forms and JS Events
 
+## Notes and Takeaways!
+
+- [Event Handling Whiteboard](inclass-whiteboard-events/event-handling.png)
+- [In class demo - Events and Forms](inclass-demo-form-events)
+- [In class demo - Kitten Demo](inclass-demo-kitten)
+
 ## Overview
 
 In this class you will be learn JavaScript Events and how they can bring interactivity to your application. You will also learn how to construct HTML forms.

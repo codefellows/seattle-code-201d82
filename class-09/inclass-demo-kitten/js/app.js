@@ -151,5 +151,47 @@ function renderAllKittens(){
     currentKitten.renderKitten();
   }
 }
-
 renderAllKittens();
+
+
+
+// ******** EVENT HANDLING ********
+
+// Step 1: Grab the element I want to listen to
+const kittenForm = document.getElementById('add-kitten');
+
+
+// Step 3: write the event handler or callback function
+
+function handleSubmit(event){
+  event.preventDefault(); // prevent my browser from resetting and trying to send my data somewhere
+
+  // kittyName is the value of the name attribute we set on the input element  <input name="kittyName"> -- see html
+  let name = event.target.kittyName.value;
+  let interests = event.target.interests.value;
+
+  interests = interests.split(',');
+  // .split is a string method that will split on the character or characters provided and return an array of elements that were split
+
+  let photo = event.target.photo.value;
+
+  let isGoodWithDogs = event.target.isGoodWithDogs.checked;
+  let isGoodWithCats = event.target.isGoodWithCats.checked;
+  let isGoodWithKids = event.target.isGoodWithKids.checked;
+
+  let newKitten = new Kitten(name, interests, isGoodWithDogs, isGoodWithCats, isGoodWithKids, photo);
+
+  //call necessary methods on the new kitten to render to page
+  newKitten.getAge();
+  newKitten.renderKitten();
+
+  //resets the fields on the form
+  kittenForm.reset();
+}
+
+
+
+
+// Step 2: Add my event listener to the element I want to listen to
+kittenForm.addEventListener('submit', handleSubmit);
+

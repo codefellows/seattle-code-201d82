@@ -9,6 +9,40 @@
 
 <body>
   <h1>Adopt a Kitten</h1>
+
+  <!-- Form needs name, interests, dogs, cats, kids, photo -->
+
+  <form id="add-kitten">
+    <fieldset>
+      <legend>Basic Information</legend>
+
+      <label for="name">Name</label>
+      <input id="name" type="text" name="kittyName">
+
+      <label for="interests">Interests (separate by commas)</label>
+      <input id="interests" type="text" name="interests">
+
+      <label for="photo">Photo</label>
+      <input id="photo" type="text" name="photo">
+
+    </fieldset>
+    <fieldset>
+      <legend>Placement Information</legend>
+      <p>Can be placed with....</p>
+
+      <label for="isGoodWithDogs">Good with Dogs</label>
+      <input id="isGoodWithDogs" type="checkbox" name="isGoodWithDogs">
+      
+      <label for="isGoodWithCats">Good with Cats</label>
+      <input id="isGoodWithCats" type="checkbox" name="isGoodWithCats">
+
+      <label for="isGoodWithKids">Good with Kids</label>
+      <input id="isGoodWithKids" type="checkbox" name="isGoodWithKids">
+
+    </fieldset>
+    <button type="submit">Submit</button>
+  </form>
+
   <main>
     <h2>Kittens Available for Adoption</h2>
     <section id="kitten-profiles"></section>
