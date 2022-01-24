@@ -17,7 +17,7 @@ let imgTwo = document.getElementById('img-two');
 
 // +++++ OTHER GLOBALS ++++++
 const goatArray = [];
-let maxVotes = 5;
+let maxVotes = 15;
 let counter = 0;
 
 
