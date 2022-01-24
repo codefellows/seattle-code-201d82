@@ -25,3 +25,36 @@ Your app will randomly display two of these unique pictures at a time, the user 
 After choosing your favorite goat 15 times, the voting session will conclude, the user can press a view results "button" and the app will render a list showing all of the goats names, the number of times they were viewed, and the number of clicks received.
 
 ### What Do We Need?
+
+#### Global variables
+
+- reference to the DOM - windows
+  - HTML - set up 2 images - trackable - grab from the DOM - getElementById
+- number of votes user has submitted - 15 max - counter or `let maxVotes = 15`
+- Place to store some goats - an array
+
+#### Constructor
+
+- Goat Objects
+  - views
+  - votes
+  - img
+  - name
+  - push goats into our global array
+
+#### Executable code
+
+- EVENTS
+  - Click goat - voting purpose
+  - Click on our button - to view the results
+- Render goats to the page
+- Logic conditional checks to make sure goats aren't the same in each round
+  - Random number generator - check to make sure those numbers aren't the same
+- Track score for each goat
+  - clicks
+  - views
+- View results "button"
+  - Logic - once votes have been maxxed out
+  - create a list - of goats, with their views, votes
+- A way to display goats to the user
+  - Code to cycle through goat storage to display images to user
