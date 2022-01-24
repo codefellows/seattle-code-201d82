@@ -55,6 +55,9 @@ function renderImages() {
   let goatTwoIndex = getRandomIndex();
 
   // validation - to make sure the images are unique per round
+  // **NOTE** your lab will need to have 3 unique images
+  // Consider using a container to store your randomIndex numbers and then validate that there are 3 unique numbers in that collection
+  // **HINT** an array method might come in handy to see if something is included in your collection...
   while(goatOneIndex === goatTwoIndex){
     goatTwoIndex = getRandomIndex();
   }
