@@ -32,9 +32,17 @@ main div {
   width: max-content;
   margin: auto;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid;
+  color: rgb(251, 132, 150);
   border-radius: 5px;
-  background-color: rgb(251, 209, 215);
+  margin-bottom: 75px;
+}
+
+main div:hover {
+  border-color: rgb(191, 148, 155);
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(191, 148, 155);
+  transform: translateY(-0.25em);
 }
 
 main ul {

@@ -101,15 +101,15 @@ function renderChart() {
       datasets: [{
         label: '# of Votes',
         data: goatVotes, // value for the dataset
-        backgroundColor: 'rgba(255, 99, 132, 1)',
-        borderColor: 'rgba(255, 99, 132, 1)',
+        backgroundColor: 'rgb(251, 132, 150, 1)',
+        borderColor: 'rgba(251, 132, 150, 1)',
         borderWidth: 1
       },
       { // second dataset
         label: '# of Views',
         data: goatViews, // value for the dataset
-        backgroundColor: 'green',
-        borderColor: 'green',
+        backgroundColor: '#ffa260',
+        borderColor: '#ffa260',
         borderWidth: 1
       }
       ]
