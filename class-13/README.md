@@ -1,6 +1,16 @@
 # Application State with Local Storage API
 
-<!-- Description Here -->
+## Overview
+
+In this class you will are going to be introduced the concept of persisting application state with local storage.
+
+## Class Outline
+
+- Code review of previous class lab assignment
+- Code demo
+  - JSON
+  - Local storage
+- Lab preview and prep
 
 ## Learning Objectives
 
@@ -18,8 +28,12 @@
 - Save application state directly into local storage through `localStorage.setItem()`.
 - Retrieve application state from local storage through `localStorage.getItem()`.
 
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
 ## Notes
+
+1. What is JSON?
+
+1. What is data persistence?
+
+1. What is local storage?
+
+1. Where is local storage stored?
