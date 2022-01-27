@@ -1,23 +1,11 @@
-# CSS Animations; Intermediate JS Topics; Using Local Storage to Share Data Between Two Pages
+# Psych Safety
 
-<!-- Description Here -->
+## Class Outline
 
-## Learning Objectives
-
-### Students will be able to
-
-#### Describe and Define
-
-- JavaScript inheritance
-- CSS animations
-
-#### Execute
-
-- Create CSS animation in a web page.
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
+- Psych Safety
+- Code review of previous class lab assignment
+- Project Week - Project Ideas - High Level
+- Lab preview and prep
 
 ## Notes
 
