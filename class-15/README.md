@@ -7,7 +7,6 @@
 - Announcements
   - Reminder: weekly surveys will go out today
 - Discuss upcoming Career Coaching assignments
-- Code 201 Review
 - [Code 301 Preview](#301)
 - [Final Project Overview](#project)
 
@@ -17,7 +16,6 @@ As a result of completing Lecture 15 of Code 201, students will:
 
 - Have an understanding of the fundamentals of Code 301 topics, as measured by observations from the instructional staff during class discussion.
 - Have an understanding of how to successfully integrate Git and GitHub into a team code project, as measured by successful completion of the final project.
-- Be able to locate and utilize resources for self-study in jQuery before beginning Code 301, for those students that are going ahead, given recommendations from their Code 201 instructor.
 - Be grouped into project teams with a description of the project the team is going to build during Project Week given instruction from the instructor.
 
 ## 301 Preview
